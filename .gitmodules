@@ -1,0 +1,3 @@
+[submodule "argo-examples"]
+	path = argo-examples
+	url = https://github.com/devopsjourney1/argo-examples.git
