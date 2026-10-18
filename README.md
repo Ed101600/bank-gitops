@@ -31,9 +31,9 @@ argocd login 127.0.0.1:8080
 # Creating an Application using ArgoCD CLI:
 ```
 argocd app create webapp-kustom-prod \
---repo https://github.com/devopsjourney1/argo-examples.git \
+--repo https://github.com/Ed101600/bank-gitops.git \
 --path kustom-webapp/overlays/prod --dest-server https://kubernetes.default.svc \
---dest-namespace prod
+--dest-namespace 232160-prod
 ```
 
 # Command Cheat sheet
